@@ -3,57 +3,57 @@ import { Servico } from "../servico";
 const servicos: Servico[] = [
   {
     id: 1,
-    nome: "Corte Viking",
+    nome: "Nail Art Personalizada",
     descricao:
-      "Venha receber um corte de Viking, com lâmina na pele e estilo de guerreiro. Saia pronto para enfrentar qualquer batalha com um visual que impõe respeito.",
+      "Adicione um toque exclusivo às suas unhas com nossa nail art personalizada. Designs únicos, desde traços minimalistas até artes sofisticadas e criativas.",
     preco: 55,
     qtdeSlots: 3,
-    imagemURL: "/servicos/corte-de-cabelo.jpg",
+    imagemURL: "/nail/nail1.jpg",
   },
   {
     id: 2,
-    nome: "Barba de Lenhador",
+    nome: "Pedicure Completa",
     descricao:
-      "Venha dar um trato na sua barba de lenhador, com aparo preciso e estilo de macho raiz. Saia com uma barba que impõe respeito e faz tremer até as árvores.",
+      "Experimente um cuidado especial para os pés com nossa pedicure completa. Inclui esfoliação, hidratação, corte e lixamento das unhas, além de esmaltação de alta qualidade.",
     preco: 45,
     qtdeSlots: 2,
-    imagemURL: "/servicos/corte-de-barba.jpg",
+    imagemURL: "/nail/nail2.jpg",
   },
   {
     id: 3,
-    nome: "Garras Brutais",
+    nome: "Spa das Mãos e Pés",
     descricao:
-      "Venha transformar suas patas de urso em garras de lobo. Nosso serviço de Manicure & Pedicure para homens é tão bruto quanto você, mas com um toque de classe.",
+      "Relaxe e cuide de si com nosso spa das mãos e pés. Inclui esfoliação, hidratação profunda e massagem revitalizante, deixando sua pele macia e renovada.",
     preco: 40,
     qtdeSlots: 2,
-    imagemURL: "/servicos/manicure-pedicure.jpg",
+    imagemURL: "/nail/nail3.jpg",
   },
   {
     id: 4,
-    nome: "Combo Alpha",
+    nome: "Esmaltação em Gel",
     descricao:
-      'Nosso combo "Alpha" inclui um corte de cabelo de Viking, uma barba de lenhador e manicure & pedicure de gladiador. Saia pronto para enfrentar qualquer batalha com estilo e unhas afiadas.',
+      "Tenha unhas lindas por muito mais tempo com nossa esmaltação em gel. Cores vibrantes, brilho intenso e durabilidade que acompanha sua rotina sem perder a elegância.",
     preco: 95,
     qtdeSlots: 2,
-    imagemURL: "/servicos/combo.jpg",
+    imagemURL: "/nail/nail4.jpg",
   },
   {
     id: 5,
-    nome: "Pequeno Caçador",
+    nome: "Hidratação de Cutículas",
     descricao:
-      "Transforme seu pequeno aventureiro em um mini caçador, com um corte cheio de atitude e estilo. Cabelo afiado como uma guitarra e maneiro como uma Harley.",
+      "Cuide da saúde das suas cutículas com nossa hidratação especializada. Ideal para manter as unhas fortes e a pele ao redor macia e saudável.",
     preco: 60,
     qtdeSlots: 2,
-    imagemURL: "/servicos/corte-infantil.jpg",
+    imagemURL: "/nail/nail5.jpg",
   },
   {
     id: 6,
-    nome: "Noivo Raiz",
+    nome: "Alongamento de Unhas",
     descricao:
-      "Prepare-se para o grande dia com um tratamento digno de um verdadeiro guerreiro da estrada. Corte de cabelo afiado, barba de lenhador e manicure de motoqueiro, tudo enquanto você relaxa ao som de rock pesado.",
+      "Transforme o visual das suas unhas com nossos alongamentos em gel ou fibra. Unhas mais longas, resistentes e com acabamento perfeito para qualquer ocasião.",
     preco: 189,
     qtdeSlots: 5,
-    imagemURL: "/servicos/dia-de-noivo.jpg",
+    imagemURL: "/nail/nail6.jpg",
   },
 ];
 

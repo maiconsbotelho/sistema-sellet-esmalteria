@@ -17,7 +17,7 @@ export default class RegistrarUsuario implements CasoDeUso<Usuario, void> {
             throw new Error('Usuário já existe')
         }
 
-        const senhaCriptografada = await this.cripto.criptografar(usuario.senha)
+        const senhaCriptografada = await this.cripto.criptografar(usuario.senha) 
         const novoUsuario = {
             ...usuario,
             senha: senhaCriptografada,
