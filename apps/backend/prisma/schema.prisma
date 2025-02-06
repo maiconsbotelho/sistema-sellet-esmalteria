@@ -38,6 +38,7 @@ model Profissional {
   descricao            String
   imagemURL            String
   avaliacao            Float
+  cpf                  String        @unique
   quantidadeAvaliacoes Int
   agendamentos         Agendamento[]
 

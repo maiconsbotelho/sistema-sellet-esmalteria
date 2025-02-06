@@ -20,5 +20,5 @@ export default function NossosProfissionais() {
           ))}
         </div>
       </div>
-    );
+    ); 
 }
